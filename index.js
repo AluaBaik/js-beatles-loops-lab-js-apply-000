@@ -1,1 +1,21 @@
 // add solution here
+function theBeatlesPlay(param1, param2)
+
+{
+  var i
+  var a=new Object()
+  for (i=0; i<param1.length; i++) {
+    a[i]=param1[i]+" plays "+param2[i]
+  }
+  return a
+}
+
+function johnLennonFacts(param)
+{
+  var i 
+  i=0
+  while(i<param.length){
+    param[i]=param[i]+"!!!"
+  }
+  return param
+}
