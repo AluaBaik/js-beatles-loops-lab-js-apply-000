@@ -22,9 +22,12 @@ function johnLennonFacts(param)
 }
 function iLoveTheBeatles(param)
 {
-  var i 
-  i=0
+
+  var a
+  
   do
-  }
-  return param
+  a[param]="I love the Beatles!"
+  param++
+  while param<15
+    return param
 }
