@@ -3,7 +3,7 @@ function theBeatlesPlay(param1, param2)
 
 {
   var i
-  var a=new Object()
+  var a
   for (i=0; i<param1.length; i++) {
     a[i]=param1[i]+" plays "+param2[i]
   }
