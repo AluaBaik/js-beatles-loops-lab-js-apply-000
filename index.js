@@ -16,6 +16,7 @@ function johnLennonFacts(param)
   i=0
   while(i<param.length){
     param[i]=param[i]+"!!!"
+    i++
   }
   return param
 }
