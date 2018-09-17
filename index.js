@@ -26,8 +26,11 @@ function iLoveTheBeatles(param)
   var a
   
   do
+  {
   a[param]="I love the Beatles!"
   param++
-  while param<15
-    return param
+  }
+  while (param<15)
+  
+    return a
 }
