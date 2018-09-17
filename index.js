@@ -24,9 +24,7 @@ function iLoveTheBeatles(param)
 {
   var i 
   i=0
-  while(i<param.length){
-    param[i]=param[i]+"!!!"
-    i++
+  do
   }
   return param
 }
