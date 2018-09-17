@@ -3,7 +3,7 @@ function theBeatlesPlay(param1, param2)
 
 {
   var i
-  var a
+  var a=new Object()
   for (i=0; i<param1.length; i++) {
     a[i]=param1[i]+" plays "+param2[i]
   }
@@ -23,7 +23,7 @@ function johnLennonFacts(param)
 function iLoveTheBeatles(param)
 {
 
-  var a
+  var a=new Object()
   var i
   i=0
   do
