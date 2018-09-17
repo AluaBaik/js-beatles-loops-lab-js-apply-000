@@ -24,10 +24,12 @@ function iLoveTheBeatles(param)
 {
 
   var a
-  
+  var i
+  i=0
   do
   {
-  a[param]="I love the Beatles!"
+  a[i]="I love the Beatles!"
+  i++
   param++
   }
   while (param<15)
